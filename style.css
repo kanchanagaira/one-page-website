@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    background: url(images/waves_.jpg) no-repeat center fixed;
+    height: 100%;
+}
+
+.main{
+    width: 1000px;
+   
+    background-color: white;
+    margin: auto;
+}
+a{
+    color: white;
+}
+.page1{
+    width: 1000px;
+    height: 650px;
+    background: url(images/headerbg.jpg);
+    background-size: cover;
+
+}
+.overlay{
+    width: 1000px;
+    height: 650px;
+    background: url(images/gridtile.png) repeat;
+    border-bottom: 10px solid deepskyblue;
+}
+.logo{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
+
+    
+    
+}
+.logo img{
+    width: 30%;
+    
+}
+hr{
+    width: 400px;
+    margin: auto;
+}
+.text{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+    padding: 30px 0px;
+}
+.menu{
+    
+    padding-top: 150px;
+    color: white;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+
+}
+.menu ul li{
+    padding: 0px 20px;
+    border-right:  1px white solid;
+
+}
+.homebanner{
+    background: url(images/3.jpg) no-repeat center  fixed;
+    width: 1000px;
+    height: 300px;
+    position: relative;
+}
+.overlay2{
+     width: 1000px;
+    height: 300px;
+    background-color: #00000080;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+
+
+}
+.text2{
+    border: 10px white solid;
+    width: 18%;
+    margin: auto;
+
+
+}
+.homecontent{
+    width: 1000px;
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+h5{
+    font-size: 15px;
+    text-align: center;
+    padding:55px 0px  10px 0px;
+}
+.email{
+    text-align: center;
+}
+ .email a{
+    text-decoration: none;
+    color: black;
+
+}
+.img{
+    margin-top: 80px;
+}
+.back {
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.back a {
+    color: black;
+    
+    font-size: 30px;
+}
+.aboutbanner{
+    width: 1000px;
+    height: 300px;
+    background: url(images/1.jpg) fixed no-repeat center ;
+    background-size: 70% auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+
+
+
+}
+.overlay3{
+   width: 1000px;
+    height: 300px;
+    background-color: #00000080;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.aboutcontent{
+    width: 1000px;
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+
+}
+.servicebanner{
+    width: 1000px;
+    height: 300px;
+    background: url(images/2.jpg) fixed no-repeat center ;
+    background-size: 70% auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+}
+.overlay4{
+    width: 1000px;
+    height: 300px;
+    background-color: #00000080;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+.servicecontent{
+      width: 1000px;
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+
+}
+.Trainingbanner{
+    width: 1000px;
+    height: 250px;
+    background: url(images/banner.jpg) fixed repeat; center ;
+    background-size: 100% ;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+
+
+}
+.overlay5{
+    width: 1000px;
+    height: 250px;
+    background-color: #00000080;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+.Trainingcontent{
+    width: 1000px;
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.contactbanner{
+    width: 1000px;
+    height: 250px;
+    background: url(images/4.jpg) fixed repeat; center ;
+    background-size: 100% ;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+
+}
+.overlay6{
+    width: 1000px;
+    height: 250px;
+    background-color: #00000080;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+.contactcontent{
+    width: 1000px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    
+
+}
+.footer{
+    background-color: dimgray;
+    width: 1000px;
+    
+    margin: auto;
+    color: white;
+}
+.footer a{
+    color: white;
+    font-weight: none;
+    text-decoration: none;
+}
